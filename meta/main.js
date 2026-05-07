@@ -81,14 +81,19 @@ function renderScatterPlot(data, commits) {
         .scaleLinear()
         .domain([0, 24])
         .range([usableArea.bottom, usableArea.top]);
+    const gridlines = svg
+        .append('g')
+        .attr('class', 'gridlines')
+        .attr('transform', `translate(${usableArea.left}, 0)`);
+    gridlines.call(d3.axisLeft(yScale).tickFormat('').tickSize(-usableArea.width));
     
     const xAxis = d3.axisBottom(xScale);
     const yAxis = d3
-        .axisleft(yScale)
+        .axisLeft(yScale)
         .tickFormat((d) => String(d % 24).padStart(2, '0') + ':00');
     svg
         .append('g')
-        .attr('transform', `translate(${usableArea.bottom})`)
+        .attr('transform', `translate(0, ${usableArea.bottom})`)
         .call(xAxis);
     svg
         .append('g')
