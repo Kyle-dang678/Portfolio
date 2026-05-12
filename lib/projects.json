@@ -1,55 +1,57 @@
 [
   {
     "title": "Food Processing Visualization",
-    "image": "/portfolio-lab1-beta-test-/images/fpro_distribution.png",
+    "image": "/Portfolio/images/fpro_distribution.png",
     "year": "2026",
     "description": "Visualization of Ultra-Processed Food distribution across various food categories in Walmart, Target, and Whole Foods."
   },
   {
     "title": "CO2 Damage by Country Development Phase",
-    "image": "/portfolio-lab1-beta-test-/images/project2_vis_1.png",
+    "image": "/Portfolio/images/project2_vis_1.png",
     "year": "2026",
+    "url": "https://matthewviray.github.io/dsc106-proj2/",
     "description": "A comparative distribution of CO2 Damage in % of GNI for countries that are of developed, developing, or low-income status."
   },
   {
     "title": "Bikewatching Interactive Map",
-    "image": "/portfolio-lab1-beta-test-/images/bikewatchproj.png",
+    "image": "/Portfolio-/images/bikewatchproj.png",
     "year":"2026",
+    "url": "https://kyle-dang678.github.io/bikewatching/",
     "description": "An interactive map visualizing Bluebikes station traffic and bike lanes across Boston and Cambridge, with real-time filtering by time of day and color-coded indicators for arrival and departure patterns."
   },
   {
     "title": "Yearly ChatGPT Search Interest vs GMAT Scores By Year",
-    "image": "/portfolio-lab1-beta-test-/images/graph3.png",
+    "image": "/Portfolio/images/graph3.png",
     "year": "2024",
     "description": "Visualization of GPT Search Interest trends alongside GMAT Scores by Year, illustrating a potential connection between these variables (taking into account spurious correlations)."
   },
   {
     "title": "League of Legends Game Analysis: Gold Difference at 15 Mintues",
-    "image": "/portfolio-lab1-beta-test-/images/fig3 - Gold Difference at 15 Minutes by Game Result.png",
+    "image": "/Portfolio/images/fig3 - Gold Difference at 15 Minutes by Game Result.png",
     "year": "2025",
     "description": "Visualization of decicisive game data in League of Legends, given factor of early gold advantage at the 15 minute mark."
   },
   {
     "title": "Distribution of Letter Grades for DSC80 (Simulated)",
-    "image": "/portfolio-lab1-beta-test-/images/Screenshot 2026-01-23 144508.png",
+    "image": "/Portfolio/images/Screenshot 2026-01-23 144508.png",
     "year": "2025",
     "description": "Heatmap visualization of a simulated grade distribution of a previous DSC80 class."
   },
   {
     "title": "Viewership (Millions) by Total Episode Predictive Visualization (Simple Linear Regression)",
-    "image": "/portfolio-lab1-beta-test-/images/viewership_by_episode_predictive_model.png",
+    "image": "/Portfolio/images/viewership_by_episode_predictive_model.png",
     "year": "2024",
     "description": "Visualization of model performance through simple linear regression, predicting US views in millions for total episodes of varying shows."
   },
   {
     "title": "CO2 Damage Trend (% of GNI) Over Time",
-    "image": "/portfolio-lab1-beta-test-/images/proj2_vis_2.png",
+    "image": "/Portfolio/images/proj2_vis_2.png",
     "year": "2026",
     "description": "Collection of line graphs portraying CO2 damage trends by developed, developing, and low-income countries."
   },
   {
     "title": "Time Spent on Physical Activity by Major",
-    "image": "/portfolio-lab1-beta-test-/images/Screenshot 2026-01-18 014919.png",
+    "image": "/Portfolio/images/Screenshot 2026-01-18 014919.png",
     "year": "2026",
     "description": "A simple collection of boxplots portraying the amount of time spent on physical acitivty in hours for each major."
   },
