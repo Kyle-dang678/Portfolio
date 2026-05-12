@@ -1,3 +1,5 @@
+// run: npx elocuent -d . -o meta/loc.csv --spaces 2, to make sure you update data
+
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
 let xScale, yScale;
 async function loadData() {
