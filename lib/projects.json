@@ -1,9 +1,9 @@
-[
-  {
-    "title": "Food Processing Visualization",
-    "image": "/Portfolio/images/fpro_distribution.png",
-    "year": "2026",
-    "description": "Visualization of Ultra-Processed Food distribution across various food categories in Walmart, Target, and Whole Foods."
+[ {
+    "title": "Regional Climate Change Effect",
+    "image": "/Portfolio/images/regionclimatechange.png",
+    "year":"2024",
+    "url": "https://matthewviray.github.io/dsc106-proj3/",
+    "description": "Placeholder data"
   },
   {
     "title": "CO2 Damage by Country Development Phase",
@@ -18,6 +18,12 @@
     "year":"2026",
     "url": "https://kyle-dang678.github.io/bikewatching/",
     "description": "An interactive map visualizing Bluebikes station traffic and bike lanes across Boston and Cambridge, with real-time filtering by time of day and color-coded indicators for arrival and departure patterns."
+  },
+  {
+    "title": "Food Processing Visualization",
+    "image": "/Portfolio/images/fpro_distribution.png",
+    "year": "2026",
+    "description": "Visualization of Ultra-Processed Food distribution across various food categories in Walmart, Target, and Whole Foods."
   },
   {
     "title": "Yearly ChatGPT Search Interest vs GMAT Scores By Year",
@@ -67,11 +73,5 @@
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "year": "2024",
     "description": "Deployed numerous image processing/editing methods to uncover a hidden message for a long series of Data Science challenges."
-  },
-  {
-    "title": "A pariatur magni laudantium.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "year":"2024",
-    "description": "Placeholder data"
   }
 ]
