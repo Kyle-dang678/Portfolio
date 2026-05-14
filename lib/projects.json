@@ -3,7 +3,7 @@
     "image": "/Portfolio/images/regionclimatechange.png",
     "year":"2026",
     "url": "https://matthewviray.github.io/dsc106-proj3/",
-    "description": "Placeholder data"
+    "description": "An interactive dual-map visualization comparing projected climate change impacts across regions and decades under different emissions scenarios."
   },
   {
     "title": "CO2 Damage by Country Development Phase",
