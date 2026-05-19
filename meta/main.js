@@ -1,6 +1,7 @@
 // run: npx elocuent -d . -o meta/loc.csv --spaces 2, to make sure you update data
 
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
+let colors = d3.scaleOrdinal(d3.schemeTableau10);
 let xScale, yScale;
 async function loadData() {
   const data = await d3.csv("loc.csv", (row) => ({
@@ -303,7 +304,8 @@ function updateFileDisplay(filteredCommits) {
     .selectAll("div")
     .data((d) => d.lines)
     .join("div")
-    .attr("class", "loc");
+    .attr("class", "loc")
+    .style("--color", (d) => colors(d.type));
 }
 
 let data = await loadData();
