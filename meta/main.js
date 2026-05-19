@@ -27,7 +27,7 @@ let commitMaxTime = timeScale.invert(commitProgress);
 function onTimeSliderChange() {
   commitProgress = document.getElementById("commit-progress").value;
   commitMaxTime = timeScale.invert(commitProgress);
-  document.getElementById("commit-time").textContent =
+  document.getElementById("commit-time-b").textContent =
     commitMaxTime.toLocaleString("en", {
       dateStyle: "long",
       timeStyle: "short",
@@ -134,6 +134,7 @@ function brushed(event) {
   renderSelectionCount(selection);
   renderLanguageBreakdown(selection);
 }
+
 function renderSelectionCount(selection) {
   const selectedCommits = selection
     ? commits.filter((d) => isCommitSelected(selection, d))
